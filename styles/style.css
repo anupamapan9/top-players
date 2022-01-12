@@ -7,10 +7,6 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
-nav{
-    width: 870px;
-    margin: 0 auto;
-}
 main{
     display: flex;
     flex-direction: column;
@@ -30,10 +26,30 @@ hr{
 /*------------------------------ header start-----------------  */
 header{
     background-color:#562EFF ;
+    position: sticky ;
+    top: 0;
 }
 .logo img{
     height: 50px;
     width: 40px;
+}
+nav{
+    width: 870px;
+    height: 94px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu-item a{
+    text-decoration: none;
+    color: #F3F1FF;
+    margin-right: 36px;
+
 }
 /* top players start */
 .top-players{
